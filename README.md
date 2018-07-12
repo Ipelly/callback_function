@@ -6,7 +6,7 @@ A deep dive into callback with code snippet
 
 Definition: 
 
-•	Callback is a function that is to be executed after another function already has already been executed.
+•	Callback is a function that is to be executed after another function has already been executed.
 
 •	Any function which is passed as argument.
 
