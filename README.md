@@ -8,7 +8,7 @@ Definition:
 
 •	Callback is a function that is to be executed after another function has already been executed.
 
-•	Any function which is passed as argument.
+•	Callback can be passed as an argument to another.
 
 •	Callback function enables async behaviour of whole code block with respect to callback function code block. However, callback function code block will excute synchonously. 
 
