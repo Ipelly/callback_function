@@ -3,11 +3,8 @@ console.log("1 and 2 get printed sequentially as the code block executed")
 
 function first(){
     console.log(1);
-//   // Simulate a code delay
-//   setTimeout( function(){
-//     console.log(2);
-//   }, 1 );
 }
+
 function second(){
   console.log(2);
 }
