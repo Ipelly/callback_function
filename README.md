@@ -1,7 +1,10 @@
-# callback_function
+# Callback Function : 
+
+One of most powerful feature of JS
+
 A deep dive into callback with code snippet 
 
-Definatin :
+Definition: 
 
 •	Callback is a function is to be executed after another function already executed.
 
