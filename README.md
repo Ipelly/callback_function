@@ -6,13 +6,15 @@ A deep dive into callback with code snippet
 
 Definition: 
 
-•	Callback is a function is to be executed after another function already executed.
+•	Callback is a function that is to be executed after another function already has already been executed.
 
-•	Any function which is passed as argument is callback function.
+•	Any function which is passed as argument.
 
-•	Callback function enables async behaviour of whole code block with respect to callback function code block. However, callback function code will excute synchonously. 
+•	Callback function enables async behaviour of whole code block with respect to callback function code block. However, callback function code block will excute synchonously. 
 
-For example: If a code snippets has 10 lines of code. Line 1-5 has no callback function, but line 6-8 has a callback, line 9-10 again without callback function.
+For example: 
+
+If a code snippets has 10 lines of code. Line 1-5 has no callback function, but line 6-8 has a callback, line 9-10 again without callback function.
 
 In above scenario -
 
