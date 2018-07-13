@@ -8,7 +8,7 @@ Definition:
 
 •	Callback is a function that is to be executed after another function has already been executed.
 
-•	Callback function can be passed as an argument to another.
+•	In JavaScript, functions are objects. Because of this, functions can take functions as arguments, and can be returned by other functions. Functions that do this are called higher-order functions. Any function that is passed as an argument and subsequently called by the function that receives it, is called a callback function.
 
 • Every Callback function allows to create an extra program execution thread (hypothetical) parallel with main program thread. 
 
