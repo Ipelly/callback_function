@@ -31,8 +31,8 @@ A bank customer would like to withdrawal some money from the ATM with money rece
 
 If you analysis this use case – there are two tasks.
 
-         • Once customer puts the instructions in ATM Machine to withdrawal the money, 
-           ATM machine starts counting the note. Its little time consuming.
+         • Once customer puts the instructions to ATM Machine to withdrawal the money, 
+           ATM machine starts counting the notes. 
         
          • Meanwhile ATM machine will be able to print the receipts. 
 
