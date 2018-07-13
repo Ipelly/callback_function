@@ -23,7 +23,18 @@ Program execution (thread 1) starts from line 1 - and eventually moves toward li
 
 So the moral of the story is, two execution threads run parallely. They are asynchronous with each other's execution but within itself, they are totally synchronous.  
 
-A Real Life Secnario :
+Use Case: 
+
+A bank customer would like to withdrawal some money from the ATM with money receipt.
+
+If you analysis this use case – there are two tasks –
+     1.	Once customer puts the instructions in ATM Machine to withdrawal the money, ATM machine starts counting the note. Its little time consuming.
+     2.	Meanwhile ATM machine will be able to print the receipts. 
+     
+So, there are two execution process blocks, 
+     1.	Get the number of the amount as input and checks availability. If yes, create one different execution block to count the notes which is totally independent. And then keep continue to print the receipts. 
+     2.	Pull the notes from the chamber and starts counting them in order to put them onto output chamber. This is totally different and independent execution process block then above one. 
+
 
 
 
