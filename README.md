@@ -28,13 +28,18 @@ So the moral of the story is, two execution threads run parallely. They are asyn
 Use Case: 
 A bank customer would like to withdrawal some money from the ATM with money receipt.
 
-If you analysis this use case – there are two tasks –
-	Once customer puts the instructions in ATM Machine to withdrawal the money, ATM machine starts counting the note. Its little time consuming.
-	Meanwhile ATM machine will be able to print the receipts. 
+If you analysis this use case – there are two tasks.
 
-So, there are two execution process blocks, 
-	Get the number of the amount as input and checks availability. If yes, create one different execution block to count the notes which is totally independent. And then keep continue to print the receipts. 
-	Pull the notes from the chamber and starts counting them in order to put them onto output chamber. This is totally different and independent execution process block then above one. 
+        •	Once customer puts the instructions in ATM Machine to withdrawal the money, ATM machine starts counting the note. Its little time consuming.
+        
+        •	Meanwhile ATM machine will be able to print the receipts. 
+
+So, there are two execution process blocks.
+
+        o	Get the number of the amount as input and checks availability. If yes, create one different execution block to count the notes which is totally independent. And then keep continue to print the receipts. 
+        
+        o	Pull the notes from the chamber and starts counting them in order to put them onto output chamber. This is totally different and independent execution process block then above one. 
+
 
 
 
